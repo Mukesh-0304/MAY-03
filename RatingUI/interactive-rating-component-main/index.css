@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    gap: 30px;
+    border-radius: 20px;
+}
+.star{
+    width: 50px;
+    height: 50px;
+    background-color:hsl(213, 23%, 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+}
+.head{
+    color: white;
+    margin: 0%;
+}
+.para{
+    color: hsl(216, 12%, 54%);
+    width: 350px;
+    margin: 0%;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+}
+.one{
+    width: 50px;
+    height: 50px;
+    background-color:hsl(213, 23%, 25%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.submit{
+    padding: 20px;
+    border-radius: 50px;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+}
+#demo{
+    margin: 0%;
+    color: white;
+}

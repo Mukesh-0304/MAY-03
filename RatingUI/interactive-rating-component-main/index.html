@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./index.css">
+<!-- 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="container">
+      <div class="flex-container">
+        <div class="star">
+          <img src="./images/icon-star.svg" class="star-img" alt="">
+        </div>
+        <h1 class="head"> How did we do?</h1>
+        <p class="para">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <div class="numbers">
+            <button onclick="get()" id="one1" class="one">
+              <p class="two">1</p>
+            </button>
+            <button onclick="get1()"id="one2" class="one">
+              <p class="two">2</p>
+            </button>
+            <button onclick="get2()"id="one3" class="one">
+              <p class="two">3</p>
+            </button>
+            <button onclick="get3()"id="one4" class="one">
+              <p class="two">4</p>
+            </button>
+            <button onclick="get4()"id="one5" class="one">
+              <p class="two">5</p>
+            </button>
+        </div>
+        <p id="demo"></p>
+        <button onclick="display()" id="submit" class="submit">SUBMIT</button>
+      </div>
+  </div>
+
+ 
+
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  You selected <!-- Add rating here --> out of 5
+
+  <!-- Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+<script src="./index.js"></script>
+</body>
+</html>
